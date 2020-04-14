@@ -51,22 +51,21 @@ h1 {
 #header-section {
   background-image: url('images/bg-hero-desktop.svg');
   background-color: hsl(197, 100%, 98%);
-  position: relative;
 }
 
-#nav-bar {
+.nav {
   display: flex;
   justify-content: space-between;
   padding: 32px 52px;
 }
 
-.hero-container {
+.container__hero {
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
-.hero-left-section {
+.container__hero--left {
   display: flex;
   flex-direction: column;
   max-width: 600px;
@@ -74,11 +73,11 @@ h1 {
   padding-top: 32px;
 }
 
-.hero-left-section p {
+.container__hero--left--p {
   padding: 18px 0;
 }
 
-.hero-img-right {
+.img__hero--right {
   max-width: 600px;
   margin: 0 40px;
 }
@@ -127,7 +126,7 @@ h1 {
   margin: 0 auto;
 }
 
-#build-community-section {
+#build-your-community {
   background-color: white;
   text-align: center;
   width: 500px;
@@ -140,11 +139,11 @@ h1 {
   margin-top: -85px;
 }
 
-#build-community-section h3 {
+#build-your-community h3 {
   padding: 24px 0;
 }
 
-#build-community-section button {
+#build-your-community button {
   margin-bottom: 18px;
 }
 
